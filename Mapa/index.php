@@ -3,7 +3,7 @@
 <?php include "../header.php"; ?>
 
 <?php
-  require_once('../../../db.php');
+  require_once('../../../DbPcr.php');
   $usuario = $_SESSION['usuario'];
   
   $sql = "SELECT * FROM usuario WHERE CpfCnpj LIKE '%$usuario%'";

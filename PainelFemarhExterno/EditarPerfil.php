@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once('../../../db.php');
+require_once('../../../DbPcr.php');
 $upload_dir = '../ArquivosEnviados/';
 
 if(isset($_POST['Enviar'])){
